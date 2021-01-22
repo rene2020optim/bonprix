@@ -1,1 +1,33 @@
 
+
+    
+ion-tab-bar{
+    --border: 0px solid, transparent;
+}
+ion-tab-button {
+   
+    ion-icon {
+        color: gray;
+    }
+}
+
+ion-tab-button:focus {
+    ion-icon {
+        color:  red !important;
+        --color-selected: red !important;
+    }
+}
+
+ion-tab-button:hover {
+    ion-icon {
+        color:  red !important;
+        --color-selected: red !important;
+    }
+}
+
+ion-tab-button:active {
+    ion-icon {
+        color:  red !important;
+        --color-selected: red !important;
+    }
+}

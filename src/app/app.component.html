@@ -1,3 +1,31 @@
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
+  
+<ion-split-pane contentId="content">
+  <ion-menu contentId="content">
+       <ion-header>
+          <ion-toolbar class="menu-header">
+        
+        <ion-row style="justify-content:center;margin-top: 10px">
+            <ion-avatar>
+              <img src="">
+            </ion-avatar>
+         </ion-row>
+           
+          </ion-toolbar>
+        </ion-header>
+         <ion-content>
+    <ion-list>
+   <!-- <ion-menu-toggle auto-hide="false" *ngFor="let page of pages">
+      <ion-item (click)="ruta(page.title)" routerDirection="forward" [class.active-item]="selectedPath==page.url">
+          <ion-icon [src]="page.name" slot="start"></ion-icon>
+           <ion-label style="color:white">  {{page.title}} </ion-label>
+      </ion-item>
+    </ion-menu-toggle>-->
+    </ion-list>
+    
+    
+  </ion-content>
+  </ion-menu>
+<ion-router-outlet id="content"></ion-router-outlet>
+</ion-split-pane>
 </ion-app>

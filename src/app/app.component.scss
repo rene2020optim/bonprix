@@ -1,0 +1,24 @@
+.active-item {
+    border-left: 8px solid var(--ion-color-primary);
+   }
+   .menu-header{
+    //--background:rgb(255, 157, 0);
+  //--background: url('../../assets/img/superior-drawer.png') no-repeat 100% center/cover;
+    height:160px;
+   }
+   .item-header{
+    --background:transparent;
+    margin-top: 50px;
+    
+   }
+   ion-content{
+    //--background: url('../../assets/img/inferior-drawer.png') no-repeat 100% center/cover;
+   }
+  ion-list{
+    background:transparent
+  }
+  ion-item{
+      --background:transparent
+  }
+   
+   
